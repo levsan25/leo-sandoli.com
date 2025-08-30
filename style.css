@@ -494,6 +494,16 @@ width: 55%;
     width: 170vh;
 }
 
+.blue_osm_extra {
+        align-content: center;
+        width: 104vh;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+        margin-bottom: 50pt;
+        padding-left: 105pt;
+}
+
 
 
 
