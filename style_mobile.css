@@ -1,0 +1,477 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* My style */
+
+@media screen and (max-width: 390px) {
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+
+}
+
+body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; 
+}
+
+#background-video {
+       position: fixed;
+      top: 0;
+    left: 0;
+      width: 100%;
+    height: 100%;
+    min-width: 100%;   /* prevent horizontal gaps */
+  min-height: 100vh;
+  object-fit: cover;
+z-index: 0;
+}
+
+#wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: Impact;
+    font-size: 40pt;
+    margin: 0;
+    padding-top: 10pt;
+}
+
+nav {
+    font-family: Nata Sans;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    gap: 20pt;
+}
+
+.flexbox {
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+    }
+
+    a {
+        color: white;
+    font-size: 12pt;
+    font-family: Nata Sans;
+    text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(214, 255, 104);
+    }
+
+    .active {
+       filter: blur(1pt);
+       pointer-events: none;
+
+    }
+
+    .about {
+        padding-top: 40pt;
+        padding-left: 22pt;
+        width: 40%;
+    }
+
+    .Leo {
+        padding-top: 8pt;
+padding-left: 22pt;
+width: 85%;
+    }
+
+    .camera {
+        max-width: 70%;
+        padding-left: 0pt;
+    }
+
+    .text_description {
+        max-width: 72%;
+        color: white;
+        font-family: Nata Sans;
+        line-height: 1.6;
+        font-size: 11pt;
+        padding-right: 0;
+    }
+
+    .description {
+        width: 100%;
+        padding-top: 30pt;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30pt;
+    }
+
+    .project {
+    margin: 0;
+    padding: 0;
+    }
+
+    .name {
+        width: 70%;
+    font-weight: 600;
+    font-size: 20pt;
+       top: 64%;
+    left: 20%;
+
+   }
+
+   .cover {
+      height: auto;
+    max-width: 100%;
+    display: block;
+   }
+
+
+.project_header {
+    color: rgb(214, 255, 104);
+    font-family: Nata sans;
+    line-height: 25pt;
+    font-size: 20pt;
+    padding-top: 60pt;
+    width: 85%;
+    margin: auto;
+}
+
+.info {
+    align-items: center;
+    justify-content: center;
+    padding-top: 50pt;
+    display: flex;
+    flex-shrink: none;
+    flex-direction: column;
+    gap: 30pt;
+    padding-bottom: 50pt;
+}
+
+.info_doritos {
+    align-items: center;
+    justify-content: center;
+    padding-top: 20pt;
+    display: flex;
+    flex-shrink: none;
+    flex-direction: column;
+    gap: 30pt;
+}
+
+.lines {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15pt;
+    order: 1;
+}
+
+.lines .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 12pt;
+                font-weight: 600;
+
+}
+
+.lines2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15pt;
+    order: 1;
+}
+
+.lines2_doritos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20pt;
+    padding-top: 35pt;
+    order: 1;
+}
+
+.lines2 .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines2 .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 12pt;
+                font-weight: 600;
+
+}
+
+.lines2_doritos .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines2_doritos .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 12pt;
+                font-weight: 600;
+
+}
+
+.content {
+    max-width: 80%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+     align-items: center;
+}
+
+
+.content .mockup {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+h2 {
+    width: 80%;
+    padding-left: 10%;
+    color: rgb(214, 255, 104);
+    font-size: 40pt;
+    font-family: Nata sans;
+    line-height: 50pt;
+}
+
+.intro {
+    font-family: Nata Sans;
+    padding-left: 10%;
+    padding-top: 20pt;
+    color: white;
+    line-height: 20pt;
+    width: 80%;
+}
+
+.search {
+    padding: 5%;
+    width: 90%;
+    padding-top: 30pt;
+}
+
+.logo_tenant {
+    width: 70%;
+}
+
+.main_image {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.image_raster {
+    padding-top: 15pt;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 20pt;
+    flex-wrap: no wrap;
+    
+}
+
+.cover_variants {
+    width: 149vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20pt;
+}
+
+.cover_variants_big {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 15pt;
+}
+
+.index {
+        align-content: center;
+        width: 94.5%;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+    }
+
+     .green {
+        align-content: center;
+        width: 94.5%;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+    }
+
+    .videoimg {
+        align-content: center;
+        width: 103%;
+        flex-direction: row;
+        display: flex;
+        gap: 0pt;
+    }
+
+
+      .yellow {
+        align-content: center;
+        width: 94.5%;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+    }
+
+    .blue {
+        align-content: center;
+        width: 45vh;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+    }
+
+    .video_series {
+        align-content: center;
+        flex-direction: column;
+        display: flex;
+        gap: 0pt;
+        padding-left: 32pt;
+        margin-top: 20pt;
+        margin-bottom: 20pt;
+    }
+
+    .blue_osm {
+        align-content: center;
+        width: 95%;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+        margin-bottom: 50pt;
+        padding-left: 0pt;
+    }
+
+
+.prices {
+    width: 79.5%;
+    padding-left: 10%;
+    padding-top: 20pt;
+}
+
+.closing_image {
+     width: 81%;
+    padding-left: 9%;
+    padding-top: 15pt;
+    padding-bottom: 60pt;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    border: 0;           
+    max-width: 100vw;     
+    box-sizing: border-box;
+
+}
+
+.staedtler_overview {
+    max-width: 100vh;
+    padding-right: 65pt;
+}
+
+
+.mockbrain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15pt;
+    padding-bottom: 50pt;
+}
+
+.screens {
+    max-width: 80%;
+    align-self: center;
+}
+
+.index_small {
+    flex-direction: column;
+    width: 45vh;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: column;
+    gap: 10pt;
+}
+
+.graphics {
+    width: 100%;
+}
+
+.links {
+padding-bottom: 0%;
+padding-top: 5%;
+padding-left: 5%;
+}
+
+.big {
+    width: 50vh;
+}
+
+
+.blue_osm_extra {
+        align-content: center;
+        width: 47.5vh;
+        flex-direction: column;
+        display: flex;
+        gap: 20pt;
+        margin-bottom: 50pt;
+        padding-left: 28pt;
+}
+
+}
+
