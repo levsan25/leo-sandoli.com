@@ -119,11 +119,11 @@ width: 85%;
     }
 
     .text_description {
-        max-width: 72%;
+        max-width: 75%;
         color: white;
         font-family: Nata Sans;
         line-height: 1.6;
-        font-size: 11pt;
+        font-size: 13pt;
         padding-right: 0;
     }
 
