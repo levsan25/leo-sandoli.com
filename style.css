@@ -1,0 +1,500 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* My style */
+
+html, body {
+    
+    background: black;
+    max-width: 100%;
+     margin: 0;
+    padding: 0;
+
+}
+
+#background-video {
+      width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+z-index: 0;
+object-fit: cover;
+}
+
+.logo{
+    width: 60%;
+    color: white;
+    font-family: Impact;
+    font-size: 60pt;
+    margin: 1.25rem 0 1.25rem 2rem;
+}
+
+nav {
+    font-family: Nata Sans;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.flexbox {
+    flex: 1 1 auto; /* flexible width */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem; /* 40px */
+    padding-right: 30pt;
+    flex-wrap: wrap;
+
+    }
+
+    a {
+        color: white;
+    font-size: 15pt;
+    font-family: Nata+Sans;
+    text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(214, 255, 104);
+    }
+
+    .active {
+       filter: blur(1pt);
+       pointer-events: none;
+
+    }
+
+    .about {
+        padding-top: 40pt;
+        padding-left: 40pt;
+    }
+
+    .Leo {
+        padding-top: 20pt;
+padding-left: 30pt;
+    }
+
+    .camera {
+        max-width: 35%;
+        padding-left: 70pt;
+    }
+
+    .text_description {
+        color: white;
+        font-family: Nata Sans;
+        line-height: 1.8;
+        padding-right: 110pt;
+        font-size: 15pt;
+        display: flex;
+        flex-direction: column;
+        gap: 12pt;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 60pt;
+        gap: 60pt;
+        padding-bottom: 50pt;
+    }
+
+    .work {
+       padding-top: 30pt;
+    }
+
+    .name {
+    font-family: Nata sans;
+    font-weight: 600;
+    font-size: 35pt;
+    position: absolute;
+    top: 50%;
+    left: 40pt;
+    opacity: 0;
+    transition: 0.5s;
+   }
+
+.project {
+    display: flex;
+    position: relative;
+    color: white;
+   }
+
+   .cover {
+      height: auto;
+    max-width: 100%;
+    display: block;
+   }
+
+.project:hover .cover {
+    opacity: 60%;
+    
+}
+
+.project:hover .name {
+    transform: translateY(-40px);
+    transition: transform 0.4s;
+    opacity: 1;
+    font-family: Nata sans;
+}
+
+.name:hover {
+    color:  rgb(214, 255, 104);
+    
+}
+
+.project_header {
+    color: rgb(214, 255, 104);
+    font-family: Nata sans;
+    font-size: 30pt;
+    padding-top: 60pt;
+    text-align: center;
+}
+
+.info {
+    align-items: center;
+    justify-content: center;
+    padding-top: 60pt;
+    display: flex;
+    flex-shrink: none;
+    flex-direction: row;
+    gap: 30pt;
+}
+
+.info_doritos {
+    align-items: center;
+    justify-content: center;
+    padding-top: 20pt;
+    display: flex;
+    flex-shrink: none;
+    flex-direction: row;
+    gap: 30pt;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 20pt;
+    order: 1;
+}
+
+.lines .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 15pt;
+                font-weight: 600;
+
+}
+
+.lines2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20pt;
+    order: 1;
+}
+
+.lines2_doritos {
+    display: flex;
+    flex-direction: column;
+    gap: 20pt;
+    padding-top: 35pt;
+    order: 1;
+}
+
+.lines2 .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines2 .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 15pt;
+                font-weight: 600;
+
+}
+
+.lines2_doritos .keyword {
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    font-family: Nata sans;
+    font-weight: 600;
+}
+
+.lines2_doritos .answer {
+    color: white;
+        font-family: Nata sans;
+            font-size: 15pt;
+                font-weight: 600;
+
+}
+
+.content {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 50pt;
+     align-items: center;
+     margin: 0 auto;
+}
+
+
+.content .mockup {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+h2 {
+    padding-top: 100pt;
+    padding-left: 10%;
+    color: rgb(214, 255, 104);
+    font-size: 40pt;
+    font-family: Nata sans;
+    line-height: 50pt;
+}
+
+.intro {
+    font-family: Nata Sans;
+    padding-left: 10%;
+    padding-top: 20pt;
+    color: white;
+    line-height: 20pt;
+    width: 50%;
+}
+
+.search {
+    width: 60%;
+    padding-left: 75pt;
+    padding-top: 30pt;
+}
+
+.logo_tenant {
+    width: 70%;
+}
+
+.image_raster {
+    padding-top: 50pt;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 15pt;
+    flex-wrap: no wrap;
+    
+}
+
+.cover_variants {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 15pt;
+}
+
+.cover_variants_big {
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    gap: 15pt;
+}
+
+
+.omockup {
+    width: 30%;
+    }
+
+    .index {
+        align-content: center;
+        width: 66%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+      .index_small {
+        align-content: center;
+        width: 66%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+     .green {
+        align-content: center;
+        width: 66%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+    .video_series {
+        padding-left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 78%;
+        gap: 15pt;
+        margin-top: 15pt;
+        margin-bottom: 15pt;
+    }
+
+    .videoimg {
+        align-content: center;
+        width: 50%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+
+      .yellow {
+        align-content: center;
+        width: 94%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+    .blue {
+        align-content: center;
+        width: 80%;
+        flex-direction: row;
+        display: flex;
+        gap: 15pt;
+    }
+
+    .blue_osm {
+        align-content: center;
+        width: 59%;
+        flex-direction: row;
+        display: flex;
+        padding-left: 10%;
+        gap: 15pt;
+        margin-bottom: 80pt;
+    }
+
+.main_image {
+    padding-top: 40pt;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.prices {
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 15pt;
+}
+
+.closing_image {
+     width: 80%;
+    padding-left: 10%;
+    padding-top: 15pt;
+    padding-bottom: 60pt;
+}
+
+iframe {
+    margin: 0 auto;
+}
+
+.staedtler_overview {
+    max-width: 100vh;
+    padding-left: 13%;
+}
+
+
+.mockbrain {
+    padding-top: 10pt;
+    padding-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30pt;
+}
+
+.screens {
+    max-width: 80%;
+    align-self: center;
+}
+
+.big {
+    width: 156vh;
+}
+
+.icon {
+    max-width: 15%;
+}
+.icon_p {
+    font-family: Nata sans;
+    color: rgb(214, 255, 104);
+    font-size: 15pt;
+    line-height: 20pt;
+}
+
+.icon_p:hover {
+    opacity: 70%;
+    
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15pt;
+    padding-bottom: 10%;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: row;
+}
+
+.graphics{
+display: column;
+width: 55%;
+}
+
+.big {
+    width: 170vh;
+}
+
+
+
+
+
