@@ -134,7 +134,13 @@ padding-left: 30pt;
     transition: 0.5s;
    }
 
-.project {
+.work {
+    padding-bottom: 30pt;
+    display: flex; 
+    flex-direction: column;
+    gap: 20pt;
+
+    .project {
     display: flex;
     position: relative;
     color: white;
