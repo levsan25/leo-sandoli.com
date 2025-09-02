@@ -70,7 +70,7 @@ nav {
     flex-direction: column;
     position: relative;
     z-index: 1;
-    gap: 20pt;
+    gap: 18pt;
 }
 
 .flexbox {
@@ -136,9 +136,14 @@ width: 85%;
         gap: 30pt;
     }
 
+    .work {
+        display: flex;
+        flex-direction: column;
+        gap: 20pt;
+
     .project {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
     }
 
     .name {
@@ -162,7 +167,7 @@ width: 85%;
     font-family: Nata sans;
     line-height: 25pt;
     font-size: 20pt;
-    padding-top: 60pt;
+    padding-top: 50pt;
     width: 85%;
     margin: auto;
 }
