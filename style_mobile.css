@@ -314,14 +314,14 @@ h2 {
     padding-top: 15pt;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
+    padding-left: 5%;
     gap: 20pt;
     flex-wrap: no wrap;
     
 }
 
 .cover_variants {
-    width: 149vh;
+    width: 150vh;
     display: flex;
     flex-direction: column;
     gap: 20pt;
@@ -336,7 +336,7 @@ h2 {
 
 .index {
         align-content: center;
-        width: 94.5%;
+        width: 95%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -344,7 +344,7 @@ h2 {
 
      .green {
         align-content: center;
-        width: 94.5%;
+        width: 95%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -361,7 +361,7 @@ h2 {
 
       .yellow {
         align-content: center;
-        width: 94.5%;
+        width: 95%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -369,7 +369,7 @@ h2 {
 
     .blue {
         align-content: center;
-        width: 45vh;
+        width: 48vh;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -467,7 +467,7 @@ padding-left: 5%;
 
 .blue_osm_extra {
         align-content: center;
-        width: 47.5vh;
+        width: 85%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
