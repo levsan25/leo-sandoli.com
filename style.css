@@ -137,8 +137,11 @@ padding-left: 30pt;
     flex-direction: column;
     gap: 20pt;
 
+}
+
     .project {
-    display: flex;
+    
+        display: flex;
     position: relative;
     color: white;
    }
