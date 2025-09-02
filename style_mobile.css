@@ -321,7 +321,7 @@ h2 {
 }
 
 .cover_variants {
-    width: 85%;
+    width: 300%;
     display: flex;
     flex-direction: column;
     gap: 20pt;
