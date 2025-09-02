@@ -136,11 +136,6 @@ width: 85%;
         gap: 30pt;
     }
 
-    .work {
-        display: flex;
-        flex-direction: column;
-        gap: 20pt;
-        padding-bottom: 30pt;
 
     .project {
     margin: 0;
