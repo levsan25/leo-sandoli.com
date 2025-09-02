@@ -321,14 +321,14 @@ h2 {
 }
 
 .cover_variants {
-    width: 300%;
+    width: 310%;
     display: flex;
     flex-direction: column;
     gap: 20pt;
 }
 
 .cover_variants_big {
-    width: 95%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     gap: 15pt;
@@ -336,7 +336,7 @@ h2 {
 
 .index {
         align-content: center;
-        width: 95%;
+        width: 98%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -344,7 +344,7 @@ h2 {
 
      .green {
         align-content: center;
-        width: 95%;
+        width: 98%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -361,7 +361,7 @@ h2 {
 
       .yellow {
         align-content: center;
-        width: 95%;
+        width: 98%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -369,7 +369,7 @@ h2 {
 
     .blue {
         align-content: center;
-        width: 80%;
+        width: 85%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -387,7 +387,7 @@ h2 {
 
     .blue_osm {
         align-content: center;
-        width: 95%;
+        width: 98%;
         flex-direction: column;
         display: flex;
         gap: 20pt;
@@ -395,12 +395,6 @@ h2 {
         padding-left: 0pt;
     }
 
-
-.prices {
-    width: 79.5%;
-    padding-left: 10%;
-    padding-top: 20pt;
-}
 
 .closing_image {
      width: 81%;
