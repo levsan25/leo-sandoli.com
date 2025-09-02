@@ -300,7 +300,8 @@ h2 {
 }
 
 .logo_tenant {
-    width: 90%;
+    width: 95%;
+    padding-bottom: 40pt;
 }
 
 .main_image {
