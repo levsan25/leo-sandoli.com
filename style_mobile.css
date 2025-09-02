@@ -259,7 +259,7 @@ width: 85%;
 }
 
 .content {
-    max-width: 80%;
+    max-width: 90%;
     max-height: auto;
     display: flex;
     flex-direction: column;
@@ -304,8 +304,8 @@ h2 {
 }
 
 .main_image {
-    width: 80%;
-    padding-left: 10%;
+    width: 90%;
+    padding-left: 5%;
 }
 
 .image_raster {
