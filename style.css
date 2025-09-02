@@ -119,10 +119,6 @@ padding-left: 30pt;
         padding-bottom: 50pt;
     }
 
-    .work {
-       padding-top: 30pt;
-    }
-
     .name {
     font-family: Nata sans;
     font-weight: 600;
@@ -135,6 +131,7 @@ padding-left: 30pt;
    }
 
 .work {
+    padding-top: 20pt;
     padding-bottom: 30pt;
     display: flex; 
     flex-direction: column;
