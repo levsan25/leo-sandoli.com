@@ -510,7 +510,24 @@ width: 55%;
         padding-left: 105pt;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+  padding-bottom: 20pt;
+  gap: 10pt;
+    justify-content: center;
+    margin: 0 10px;
+}
 
+footer img  {
+   width: 10vh;
+    max-width: 100%;
+}
+
+
+footer img:hover {
+    opacity: 70%;
+}
 
 
 
