@@ -131,6 +131,7 @@ padding-left: 30pt;
    }
 
 .work {
+    width: 100%;
     padding-top: 20pt;
     padding-bottom: 30pt;
     display: flex; 
