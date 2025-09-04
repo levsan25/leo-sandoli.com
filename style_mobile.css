@@ -474,5 +474,15 @@ padding-left: 5%;
     padding-top: 50pt;
 }
 
+    footer {
+
+    display: flex;
+    flex-direction: row;
+  padding-bottom: 10pt;
+  gap: 10pt;
+    justify-content: center;
+    margin: 0 3px;
+}
+
 }
 
